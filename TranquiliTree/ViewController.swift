@@ -33,9 +33,10 @@ class ViewController: UIViewController {
          quizResponse.isHidden = false
         quizResponse.text = "Sometimes things don’t feel good or bad, and that’s completely normal! Something special doesn't have to happen everyday, you can do little things to make the day special!"
     }
-    @IBAction func fifthAnswer(_ sender: UIButton) {
-         quizResponse.isHidden = false
-        quizResponse.text = "Continue to be happy! We’re happy that you’re happy. "
+  
+    @IBAction func fithAnswer(_ sender: UIButton) {
+             quizResponse.isHidden = false
+            quizResponse.text = "Continue to be happy! We’re happy that you’re happy. "
     }
     
     @IBAction func nextButton(_ sender: UIButton) {
