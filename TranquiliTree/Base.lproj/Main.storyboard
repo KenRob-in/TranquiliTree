@@ -186,12 +186,16 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="jVf-II-JRa">
                                 <rect key="frame" x="20" y="17" width="64.5" height="56"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-ew-Mvv">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-ew-Mvv">
                                 <rect key="frame" x="152" y="119" width="240" height="128"/>
                                 <subviews>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-P5-mfV">
-                                        <rect key="frame" x="4.5" y="0.0" width="231" height="128"/>
-                                        <string key="text">”Feeling Stressed?"
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-zt-s9J">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-P5-mfV">
+                                                <rect key="frame" x="5" y="0.0" width="231" height="440"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">”Feeling Stressed?"
 Stress can stem from a variety of factors. Tackling stress may be harder for some but the first step is finding the cause.
 
 List out all potential stressors in your life. (I.e. school, clubs, relationships)
@@ -203,28 +207,32 @@ Completing your work won’t always eliminate your stress, sometimes you’ll ha
 -Meditate -Yoga -Bullet -Journal -Talk to a professional
 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="qxB-P5-mfV" firstAttribute="centerX" secondItem="Y2l-ew-Mvv" secondAttribute="centerX" id="HKc-2v-Xlw"/>
-                                    <constraint firstItem="qxB-P5-mfV" firstAttribute="bottom" secondItem="huT-YA-cOJ" secondAttribute="bottom" id="Meh-z1-dLs"/>
-                                    <constraint firstItem="qxB-P5-mfV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="huT-YA-cOJ" secondAttribute="leading" id="Zqy-Dj-dTx"/>
-                                    <constraint firstAttribute="trailing" secondItem="qxB-P5-mfV" secondAttribute="trailing" id="bJc-Kb-okc"/>
-                                    <constraint firstAttribute="bottom" secondItem="qxB-P5-mfV" secondAttribute="bottom" id="bOc-s2-74C"/>
-                                    <constraint firstItem="qxB-P5-mfV" firstAttribute="top" secondItem="ePZ-ZA-tLI" secondAttribute="top" id="f7u-q7-P10"/>
+                                    <constraint firstItem="CcZ-zt-s9J" firstAttribute="centerY" secondItem="ePZ-ZA-tLI" secondAttribute="centerY" id="R0Y-i7-ZlS"/>
+                                    <constraint firstItem="CcZ-zt-s9J" firstAttribute="centerX" secondItem="ePZ-ZA-tLI" secondAttribute="centerX" id="hgf-RA-XeP"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ePZ-ZA-tLI"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="huT-YA-cOJ"/>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dho-3b-0bQ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dho-3b-0bQ">
                                 <rect key="frame" x="152" y="500" width="240" height="128"/>
                                 <subviews>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-Jk-D77">
-                                        <rect key="frame" x="0.0" y="0.0" width="1767.5" height="128"/>
-                                        <string key="text">”Feeling Down?"
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-O7-8fC">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-Jk-D77">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="547"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">”Feeling Down?"
 A multitude of factors can cause you to be filled with sadness. Sometimes, there is no reason behind the feeling at all. Cause or not, tackling sadness involves a good amount of understanding your emotions and what causes you to lessen negative ones. 
 Narrow down and list any potential causes of this feeling. Are there recent events that could be upsetting you?
 Determine if you have control over the factors making you sad. A sense of direction can aid significantly with improving your mood.
@@ -236,18 +244,14 @@ Sometimes, even your own hobbies can not do much to pull yourself out of a sad s
 -Create upbeat or nostalgic playlists
 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="TCi-Jk-D77" firstAttribute="trailing" secondItem="dho-3b-0bQ" secondAttribute="trailingMargin" id="77H-Ed-J3J"/>
-                                    <constraint firstItem="TCi-Jk-D77" firstAttribute="bottom" secondItem="cce-Pk-nWC" secondAttribute="bottom" id="Av7-uR-WHl"/>
-                                    <constraint firstItem="TCi-Jk-D77" firstAttribute="top" secondItem="vpJ-Li-E9C" secondAttribute="top" id="dBu-Sd-UkD"/>
-                                    <constraint firstAttribute="bottom" secondItem="TCi-Jk-D77" secondAttribute="bottom" id="hLH-1Z-rP9"/>
-                                    <constraint firstItem="TCi-Jk-D77" firstAttribute="leading" secondItem="cce-Pk-nWC" secondAttribute="leading" id="r7U-0Q-o7H"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="vpJ-Li-E9C"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="cce-Pk-nWC"/>
                             </scrollView>
@@ -275,12 +279,17 @@ Sometimes, even your own hobbies can not do much to pull yourself out of a sad s
                                     <color key="titleColor" red="0.97053176159999999" green="0.85958725209999998" blue="0.79997640849999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1S7-OX-aW2">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1S7-OX-aW2">
                                 <rect key="frame" x="152" y="303" width="240" height="128"/>
                                 <subviews>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCX-KK-TyR">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <string key="text">”Feeling Happy? 
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9O-uB-IOl">
+                                        <rect key="frame" x="-1" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCX-KK-TyR">
+                                                <rect key="frame" x="8" y="0.0" width="232" height="457"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">”Feeling Happy? 
 If you struggle with fluctuating mental health, it may come hard to find yourself feeling happy. That is why it is extremely important to cherish the feeling rather than focusing on it’s possible short timespan. 
 Focus on the high rather than the potential of an upcoming low. 
 Use this feeling to finish projects that would otherwise go untouched.
@@ -290,28 +299,28 @@ Take a moment to treat yourself to some luxuries.
 Using your ups to begin healthy habits or starting new hobbies can aid in future moments of feeling down, stressed, etc. 
 -Buy clothes -Visit friends -Create study playlists
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="uCX-KK-TyR" firstAttribute="top" secondItem="6mr-9L-poo" secondAttribute="top" id="E78-ZN-nR8"/>
-                                    <constraint firstItem="uCX-KK-TyR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6mr-9L-poo" secondAttribute="leading" id="EX4-en-jpo"/>
-                                    <constraint firstAttribute="bottom" secondItem="uCX-KK-TyR" secondAttribute="bottom" id="FCX-oc-Ctd"/>
-                                    <constraint firstAttribute="trailing" secondItem="uCX-KK-TyR" secondAttribute="trailing" id="RZQ-UT-ifd"/>
-                                    <constraint firstItem="uCX-KK-TyR" firstAttribute="bottom" secondItem="6mr-9L-poo" secondAttribute="bottom" id="gwo-U0-fHQ"/>
-                                    <constraint firstItem="uCX-KK-TyR" firstAttribute="centerX" secondItem="1S7-OX-aW2" secondAttribute="centerX" id="pE6-tS-HDa"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Yw0-7g-Xnm"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="6mr-9L-poo"/>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-Yi-J4w">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-Yi-J4w">
                                 <rect key="frame" x="152" y="674" width="240" height="128"/>
                                 <subviews>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-8b-WeY">
-                                        <rect key="frame" x="0.0" y="0.0" width="2337.5" height="128"/>
-                                        <string key="text">"Feeling Tired? "
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-O3-6Cu">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-8b-WeY">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="477"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">"Feeling Tired? "
 Sleep troubles can lead to a plethora of other physical and emotional issues. It is extremely important to create healthy sleeping habits and uphold them the best you can. Unfortunately, life does not always permit you to have the full recommended 10 hours of sleep. In these cases, finding alternatives to still allow you to feel energized are key.
 
 First utilize a To Do list in order to organize your work and prioritize things by deadline. From there you can rearrange your schedule and make more room for sleep.
@@ -326,18 +335,14 @@ Other options: There may be cases in which your sleep troubles are not ratified 
 
 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Ouy-8b-WeY" firstAttribute="top" secondItem="ABz-0N-zTn" secondAttribute="top" id="7w4-rg-630"/>
-                                    <constraint firstItem="Ouy-8b-WeY" firstAttribute="centerY" secondItem="1Uw-Yi-J4w" secondAttribute="centerY" id="8j1-fH-MBy"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ouy-8b-WeY" secondAttribute="trailing" constant="-2097.5" id="Dvv-lu-sZm"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ouy-8b-WeY" secondAttribute="bottom" constant="-0.5" id="IbH-Jj-cxb"/>
-                                    <constraint firstItem="Ouy-8b-WeY" firstAttribute="leading" secondItem="Pnn-C5-UN6" secondAttribute="leading" id="gdD-Po-6t5"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ABz-0N-zTn"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Pnn-C5-UN6"/>
                             </scrollView>
