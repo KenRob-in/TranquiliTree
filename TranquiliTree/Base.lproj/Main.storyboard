@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,7 +29,7 @@
                                 <rect key="frame" x="27" y="40" width="62" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCL-YI-zFG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCL-YI-zFG">
                                 <rect key="frame" x="171" y="124" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reminders">
@@ -41,7 +39,7 @@
                                     <segue destination="tQD-cf-6mf" kind="show" id="C7O-FT-s7r"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qD-JZ-iaC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qD-JZ-iaC">
                                 <rect key="frame" x="314" y="125" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -52,7 +50,7 @@
                                     <segue destination="Aby-oM-lPd" kind="show" id="Z6U-2M-k9e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9x-ST-s30">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9x-ST-s30">
                                 <rect key="frame" x="27" y="124" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Mood Tracker">
@@ -88,28 +86,28 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amF-Ke-wev">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amF-Ke-wev">
                                 <rect key="frame" x="148" y="312" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="A. Answer choice">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CF-28-mk5">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CF-28-mk5">
                                 <rect key="frame" x="148" y="337" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="B. Answer choice">
-                                    <color key="titleColor" systemColor="darkTextColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJW-ie-Gqp">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJW-ie-Gqp">
                                 <rect key="frame" x="147" y="365" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C. Answer choice">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWo-f5-9xi">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWo-f5-9xi">
                                 <rect key="frame" x="148" y="394" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="D. Answer choice">
@@ -143,8 +141,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -170,37 +168,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxL-ZU-Iji">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxL-ZU-Iji">
                                 <rect key="frame" x="85" y="243" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Feeling Disconnected?" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYC-5a-9aA">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYC-5a-9aA">
                                 <rect key="frame" x="85" y="407" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Go Green" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pap-jH-weB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pap-jH-weB">
                                 <rect key="frame" x="85" y="325" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Self Care" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjC-37-HxB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjC-37-HxB">
                                 <rect key="frame" x="85" y="161" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Immediate Help" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Custom Response" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u81-qh-XIX">
@@ -211,8 +209,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RAl-2c-dlV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="CQZ-Ow-5U0"/>
                 </viewController>
@@ -227,8 +225,8 @@
                     <view key="view" contentMode="scaleToFill" id="nyD-mX-KcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Vom-eT-1F1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Y1j-cN-kkZ"/>
                 </viewController>
@@ -236,40 +234,82 @@
             </objects>
             <point key="canvasLocation" x="771" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Mood Tracker View Controller-->
         <scene sceneID="fU7-6P-ny5">
             <objects>
-                <viewController id="nYc-AR-pEA" sceneMemberID="viewController">
+                <viewController id="nYc-AR-pEA" customClass="MoodTrackerViewController" customModule="TranquiliTree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WhQ-i3-XVQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-5i-QT7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-5i-QT7">
                                 <rect key="frame" x="0.0" y="101" width="414" height="795"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.81879951579999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mood Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUx-Fk-O5F">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mood Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUx-Fk-O5F">
                                 <rect key="frame" x="130.5" y="55" width="153" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="geq-QH-Dus"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="jVf-II-JRa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="jVf-II-JRa">
                                 <rect key="frame" x="20" y="17" width="64.5" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-ew-Mvv">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VG5-3y-cEI">
+                                <rect key="frame" x="20" y="120" width="124" height="109.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="stressedButton:" destination="nYc-AR-pEA" eventType="touchUpInside" id="oZs-C1-YpD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-Si-ZIc">
+                                <rect key="frame" x="20" y="312.5" width="124" height="109.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="happyButton:" destination="nYc-AR-pEA" eventType="touchUpInside" id="uPv-eU-T27"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3D-N7-Inq">
+                                <rect key="frame" x="20" y="683" width="124" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                    <color key="titleColor" red="0.97053176159999999" green="0.85958725209999998" blue="0.79997640849999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="tiredButton:" destination="nYc-AR-pEA" eventType="touchUpInside" id="63M-JC-1NV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-5t-eUz">
+                                <rect key="frame" x="20" y="509" width="124" height="109.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="sadButton:" destination="nYc-AR-pEA" eventType="touchUpInside" id="4zp-Y2-6TH"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-ew-Mvv">
                                 <rect key="frame" x="152" y="119" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-zt-s9J">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-zt-s9J">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="687"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-P5-mfV">
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-P5-mfV">
                                                 <rect key="frame" x="5" y="0.0" width="231" height="440"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">”Feeling Stressed?"
+                                                <mutableString key="text">”Feeling Stressed?"
 Stress can stem from a variety of factors. Tackling stress may be harder for some but the first step is finding the cause.
 
 List out all potential stressors in your life. (I.e. school, clubs, relationships)
@@ -278,36 +318,30 @@ Prioritize your list by most important. What things have the shortest deadline?
 Put breaks into the list you created. 
 
 Completing your work won’t always eliminate your stress, sometimes you’ll have to input long term habits.
--Meditate -Yoga -Bullet -Journal -Talk to a professional
-
-</string>
+-Meditate -Yoga -Bullet -Journal -Talk to a professional</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="CcZ-zt-s9J" firstAttribute="centerY" secondItem="ePZ-ZA-tLI" secondAttribute="centerY" id="R0Y-i7-ZlS"/>
-                                    <constraint firstItem="CcZ-zt-s9J" firstAttribute="centerX" secondItem="ePZ-ZA-tLI" secondAttribute="centerX" id="hgf-RA-XeP"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ePZ-ZA-tLI"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="huT-YA-cOJ"/>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dho-3b-0bQ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dho-3b-0bQ">
                                 <rect key="frame" x="152" y="500" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-O7-8fC">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-O7-8fC">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="547"/>
                                         <subviews>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-Jk-D77">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="547"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">”Feeling Down?"
+                                                <mutableString key="text">”Feeling Down?"
 A multitude of factors can cause you to be filled with sadness. Sometimes, there is no reason behind the feeling at all. Cause or not, tackling sadness involves a good amount of understanding your emotions and what causes you to lessen negative ones. 
+
 Narrow down and list any potential causes of this feeling. Are there recent events that could be upsetting you?
 Determine if you have control over the factors making you sad. A sense of direction can aid significantly with improving your mood.
 Take this time to talk with others. Outside perspectives can help lessen the impact of mood dampeners. 
@@ -317,54 +351,34 @@ Sometimes, even your own hobbies can not do much to pull yourself out of a sad s
 -Rewatch your favorite shows -Visit parks, gardens, or cafes
 -Create upbeat or nostalgic playlists
 
-</string>
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZGS-O7-8fC" firstAttribute="centerX" secondItem="vpJ-Li-E9C" secondAttribute="centerX" id="d1i-aN-NeT"/>
+                                    <constraint firstItem="ZGS-O7-8fC" firstAttribute="centerY" secondItem="vpJ-Li-E9C" secondAttribute="centerY" id="uQd-1Y-Xoq"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="vpJ-Li-E9C"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="cce-Pk-nWC"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VG5-3y-cEI">
-                                <rect key="frame" x="20" y="120" width="124" height="109.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="110.5" id="C7W-fQ-0Y1"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
-                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-Si-ZIc">
-                                <rect key="frame" x="20" y="312.5" width="124" height="109.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="110.5" id="zTN-ao-Dte"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
-                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3D-N7-Inq">
-                                <rect key="frame" x="20" y="683" width="124" height="110"/>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
-                                    <color key="titleColor" red="0.97053176159999999" green="0.85958725209999998" blue="0.79997640849999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1S7-OX-aW2">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1S7-OX-aW2">
                                 <rect key="frame" x="152" y="303" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9O-uB-IOl">
-                                        <rect key="frame" x="-1" y="0.0" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9O-uB-IOl">
+                                        <rect key="frame" x="-1" y="0.0" width="240" height="506"/>
                                         <subviews>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCX-KK-TyR">
-                                                <rect key="frame" x="8" y="0.0" width="232" height="457"/>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCX-KK-TyR">
+                                                <rect key="frame" x="8" y="0.0" width="232" height="489"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">”Feeling Happy? 
-If you struggle with fluctuating mental health, it may come hard to find yourself feeling happy. That is why it is extremely important to cherish the feeling rather than focusing on it’s possible short timespan. 
+                                                <mutableString key="text">”Feeling Happy? 
+If you struggle with fluctuating mental health, it may come hard to find yourself feeling happy. That is why it is extremely important to cherish the feeling rather than focusing on it’s possible short timespan.  
+                                  
 Focus on the high rather than the potential of an upcoming low. 
 Use this feeling to finish projects that would otherwise go untouched.
 Look for new hobbies that further spur this emotion so you can use them in the future.
@@ -372,24 +386,27 @@ Take a moment to treat yourself to some luxuries.
 
 Using your ups to begin healthy habits or starting new hobbies can aid in future moments of feeling down, stressed, etc. 
 -Buy clothes -Visit friends -Create study playlists
-</string>
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="o9O-uB-IOl" firstAttribute="centerY" secondItem="Yw0-7g-Xnm" secondAttribute="centerY" id="8ms-50-5aZ"/>
+                                    <constraint firstItem="o9O-uB-IOl" firstAttribute="centerX" secondItem="Yw0-7g-Xnm" secondAttribute="centerX" id="bcY-dV-ydj"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Yw0-7g-Xnm"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="6mr-9L-poo"/>
                             </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-Yi-J4w">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-Yi-J4w">
                                 <rect key="frame" x="152" y="674" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-O3-6Cu">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-O3-6Cu">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="537"/>
                                         <subviews>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-8b-WeY">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="477"/>
@@ -414,67 +431,35 @@ Other options: There may be cases in which your sleep troubles are not ratified 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bdb-O3-6Cu" firstAttribute="centerX" secondItem="ABz-0N-zTn" secondAttribute="centerX" id="7HE-ym-Z2E"/>
+                                    <constraint firstItem="bdb-O3-6Cu" firstAttribute="centerY" secondItem="ABz-0N-zTn" secondAttribute="centerY" id="W8V-Sy-cyZ"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="ABz-0N-zTn"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Pnn-C5-UN6"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-5t-eUz">
-                                <rect key="frame" x="20" y="509.5" width="124" height="109.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="110.5" id="3zN-xu-oba"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
-                                    <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1ju-dq-php"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="jVf-II-JRa" firstAttribute="leading" secondItem="VG5-3y-cEI" secondAttribute="leading" id="0W8-bA-FLa"/>
-                            <constraint firstItem="jVf-II-JRa" firstAttribute="leading" secondItem="WhQ-i3-XVQ" secondAttribute="leadingMargin" id="2xe-px-m1T"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="leading" secondItem="WhQ-i3-XVQ" secondAttribute="leading" constant="152" id="4h3-Vn-wIs"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="leading" secondItem="dho-3b-0bQ" secondAttribute="leading" id="6R8-Xf-9yX"/>
-                            <constraint firstItem="XUx-Fk-O5F" firstAttribute="leading" secondItem="jVf-II-JRa" secondAttribute="trailing" constant="46" id="8rY-x0-h2F"/>
-                            <constraint firstItem="1S7-OX-aW2" firstAttribute="top" secondItem="Y2l-ew-Mvv" secondAttribute="bottom" constant="56" id="9hc-dY-wY4"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="top" secondItem="WhQ-i3-XVQ" secondAttribute="top" constant="674" id="ARy-8d-ame"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="top" secondItem="dho-3b-0bQ" secondAttribute="bottom" constant="46" id="B1q-WA-EKS"/>
-                            <constraint firstItem="o3r-5i-QT7" firstAttribute="leading" secondItem="1ju-dq-php" secondAttribute="leading" id="BsM-oV-xvU"/>
-                            <constraint firstItem="1ju-dq-php" firstAttribute="bottom" secondItem="1Uw-Yi-J4w" secondAttribute="bottom" constant="6" id="CQH-lP-oe6"/>
-                            <constraint firstItem="o3r-5i-QT7" firstAttribute="top" secondItem="jVf-II-JRa" secondAttribute="bottom" constant="28" id="GR3-05-TPw"/>
-                            <constraint firstItem="T7e-Si-ZIc" firstAttribute="trailing" secondItem="jD2-5t-eUz" secondAttribute="trailing" id="Hxe-MP-1Pw"/>
-                            <constraint firstItem="T7e-Si-ZIc" firstAttribute="trailing" secondItem="VG5-3y-cEI" secondAttribute="trailing" id="KKX-CM-xo1"/>
-                            <constraint firstItem="XUx-Fk-O5F" firstAttribute="centerX" secondItem="WhQ-i3-XVQ" secondAttribute="centerX" id="Kug-AJ-Rhq"/>
-                            <constraint firstItem="XUx-Fk-O5F" firstAttribute="top" secondItem="1ju-dq-php" secondAttribute="top" constant="55" id="MEP-Xp-2Wa"/>
-                            <constraint firstItem="1S7-OX-aW2" firstAttribute="top" secondItem="WhQ-i3-XVQ" secondAttribute="top" constant="303" id="O0x-Np-iPd"/>
-                            <constraint firstItem="x3D-N7-Inq" firstAttribute="trailing" secondItem="VG5-3y-cEI" secondAttribute="trailing" id="Piz-dO-KPW"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="o3r-5i-QT7" secondAttribute="bottom" constant="-88" id="SPl-gu-9hf"/>
-                            <constraint firstItem="T7e-Si-ZIc" firstAttribute="leading" secondItem="jD2-5t-eUz" secondAttribute="leading" id="UZh-Jb-Bdf"/>
-                            <constraint firstItem="T7e-Si-ZIc" firstAttribute="leading" secondItem="VG5-3y-cEI" secondAttribute="leading" id="Ubb-W9-BS5"/>
-                            <constraint firstItem="dho-3b-0bQ" firstAttribute="top" secondItem="WhQ-i3-XVQ" secondAttribute="top" constant="500" id="Wd7-FX-FgW"/>
-                            <constraint firstItem="T7e-Si-ZIc" firstAttribute="centerY" secondItem="1S7-OX-aW2" secondAttribute="centerY" id="X4C-Gc-s0Y"/>
-                            <constraint firstItem="1ju-dq-php" firstAttribute="bottom" secondItem="x3D-N7-Inq" secondAttribute="bottom" constant="14.5" id="YiD-9D-gmN"/>
-                            <constraint firstItem="jVf-II-JRa" firstAttribute="top" secondItem="1ju-dq-php" secondAttribute="top" constant="17" id="c1r-9e-zTo"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="centerY" secondItem="x3D-N7-Inq" secondAttribute="centerY" id="c1t-Mx-LLl"/>
-                            <constraint firstItem="1S7-OX-aW2" firstAttribute="trailing" secondItem="dho-3b-0bQ" secondAttribute="trailing" id="cB1-Wi-vDe"/>
-                            <constraint firstItem="dho-3b-0bQ" firstAttribute="top" secondItem="1S7-OX-aW2" secondAttribute="bottom" constant="69" id="cpU-q1-ceI"/>
-                            <constraint firstItem="Y2l-ew-Mvv" firstAttribute="top" secondItem="XUx-Fk-O5F" secondAttribute="bottom" constant="32" id="d0t-MI-ouZ"/>
-                            <constraint firstItem="1ju-dq-php" firstAttribute="trailing" secondItem="Y2l-ew-Mvv" secondAttribute="trailing" constant="22" id="iLE-RW-rz7"/>
-                            <constraint firstItem="1S7-OX-aW2" firstAttribute="leading" secondItem="dho-3b-0bQ" secondAttribute="leading" id="nKT-4E-Q9k"/>
-                            <constraint firstItem="1Uw-Yi-J4w" firstAttribute="trailing" secondItem="dho-3b-0bQ" secondAttribute="trailing" id="nvy-3G-zpF"/>
-                            <constraint firstItem="jD2-5t-eUz" firstAttribute="top" secondItem="T7e-Si-ZIc" secondAttribute="bottom" constant="86.5" id="pDE-Mu-Fx1"/>
-                            <constraint firstItem="XUx-Fk-O5F" firstAttribute="centerX" secondItem="o3r-5i-QT7" secondAttribute="centerX" id="pcl-LE-6Td"/>
-                            <constraint firstItem="x3D-N7-Inq" firstAttribute="leading" secondItem="VG5-3y-cEI" secondAttribute="leading" id="vCe-W6-hKo"/>
-                            <constraint firstItem="Y2l-ew-Mvv" firstAttribute="trailing" secondItem="1S7-OX-aW2" secondAttribute="trailing" id="vzq-cc-l3I"/>
-                            <constraint firstItem="VG5-3y-cEI" firstAttribute="top" secondItem="XUx-Fk-O5F" secondAttribute="bottom" constant="32.5" id="xJk-9O-jkK"/>
-                            <constraint firstItem="Y2l-ew-Mvv" firstAttribute="leading" secondItem="1S7-OX-aW2" secondAttribute="leading" id="xVf-G3-2bX"/>
-                            <constraint firstItem="o3r-5i-QT7" firstAttribute="top" secondItem="XUx-Fk-O5F" secondAttribute="bottom" constant="14" id="yYb-Kd-40A"/>
-                            <constraint firstItem="Y2l-ew-Mvv" firstAttribute="leading" secondItem="VG5-3y-cEI" secondAttribute="trailing" constant="8" id="z7g-Wy-Jma"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hu2-CQ-Jnz"/>
+                    <connections>
+                        <outlet property="happyScroll" destination="1S7-OX-aW2" id="kYA-jY-cqi"/>
+                        <outlet property="happyText" destination="uCX-KK-TyR" id="XR1-NZ-Cjo"/>
+                        <outlet property="happyView" destination="o9O-uB-IOl" id="Khz-eP-KkN"/>
+                        <outlet property="logoImage" destination="jVf-II-JRa" id="OPo-4f-a9E"/>
+                        <outlet property="sadScroll" destination="dho-3b-0bQ" id="Tte-G9-611"/>
+                        <outlet property="sadText" destination="TCi-Jk-D77" id="a5n-K4-Y4g"/>
+                        <outlet property="stressedScroll" destination="Y2l-ew-Mvv" id="uNF-yj-zbR"/>
+                        <outlet property="stressedText" destination="qxB-P5-mfV" id="IoX-OC-Lol"/>
+                        <outlet property="stressedView" destination="CcZ-zt-s9J" id="Z67-QY-SSt"/>
+                        <outlet property="tiredScroll" destination="1Uw-Yi-J4w" id="ev7-xG-Fil"/>
+                        <outlet property="tiredText" destination="Ouy-8b-WeY" id="pF4-Yy-AR7"/>
+                        <outlet property="tiredView" destination="bdb-O3-6Cu" id="lIT-qU-olv"/>
+                        <outlet property="titleText" destination="XUx-Fk-O5F" id="rS1-n3-beo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4z-7y-27G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -483,16 +468,7 @@ Other options: There may be cases in which your sleep troubles are not ratified 
     </scenes>
     <resources>
         <image name="Image" width="1280" height="1280"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
+        <image name="square.fill" catalog="system" width="64" height="56"/>
     </resources>
 </document>

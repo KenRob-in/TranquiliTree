@@ -13,6 +13,7 @@
 		095E43D0268BACC50048D80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43CE268BACC50048D80C /* Main.storyboard */; };
 		095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D1268BACCB0048D80C /* Assets.xcassets */; };
 		095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */; };
+		09863A9B268C2EB900F99EA4 /* MoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */; };
 		91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */ = {isa = PBXBuildFile; fileRef = 91EA8C74268BF7BA003A025F /* Nexa-Font */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		095E43D1268BACCB0048D80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095E43D4268BACCB0048D80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095E43D6268BACCB0048D80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerViewController.swift; sourceTree = "<group>"; };
 		91EA8C74268BF7BA003A025F /* Nexa-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Nexa-Font"; path = "../../../Downloads/Nexa-Font"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				095E43D1268BACCB0048D80C /* Assets.xcassets */,
 				095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */,
 				095E43D6268BACCB0048D80C /* Info.plist */,
+				09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */,
 			);
 			path = TranquiliTree;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09863A9B268C2EB900F99EA4 /* MoodTrackerViewController.swift in Sources */,
 				095E43CD268BACC50048D80C /* ViewController.swift in Sources */,
 				095E43C9268BACC50048D80C /* AppDelegate.swift in Sources */,
 				095E43CB268BACC50048D80C /* SceneDelegate.swift in Sources */,
