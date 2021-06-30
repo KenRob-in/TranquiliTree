@@ -151,10 +151,10 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="KJ4-bz-SIL">
             <objects>
-                <viewController id="Aby-oM-lPd" sceneMemberID="viewController">
+                <viewController id="Aby-oM-lPd" customClass="ResourcesViewController" customModule="TranquiliTree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DdK-9f-dDd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,6 +183,9 @@
                                 <state key="normal" title="Feeling Disconnected?" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="feelingDisconnected:" destination="Aby-oM-lPd" eventType="touchUpInside" id="OAJ-RB-mcQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYC-5a-9aA">
                                 <rect key="frame" x="85" y="407" width="244" height="72"/>
@@ -192,6 +195,9 @@
                                 <state key="normal" title="Go Green" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="goGreen:" destination="Aby-oM-lPd" eventType="touchUpInside" id="SWV-Sk-geh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pap-jH-weB">
                                 <rect key="frame" x="85" y="325" width="244" height="72"/>
@@ -201,6 +207,9 @@
                                 <state key="normal" title="Self Care" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="selfCare:" destination="Aby-oM-lPd" eventType="touchUpInside" id="ufp-v6-QZg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjC-37-HxB">
                                 <rect key="frame" x="85" y="161" width="244" height="72"/>
@@ -210,6 +219,9 @@
                                 <state key="normal" title="Immediate Help" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="immediateHelp:" destination="Aby-oM-lPd" eventType="touchUpInside" id="ba1-ik-izw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Custom Response" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u81-qh-XIX">
                                 <rect key="frame" x="55" y="505" width="304" height="303"/>
@@ -223,6 +235,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="CQZ-Ow-5U0"/>
+                    <connections>
+                        <outlet property="resourcesResponse" destination="u81-qh-XIX" id="cxy-M1-kMz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3l-78-erO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,7 +540,7 @@ Other options: There may be cases in which your sleep troubles are not ratified 
         <image name="Image-3" width="1280" height="1280"/>
         <image name="Image-4" width="1280" height="1280"/>
         <image name="arrowtriangle.right.square.fill" catalog="system" width="128" height="114"/>
-        <image name="square.fill" catalog="system" width="32" height="32"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
