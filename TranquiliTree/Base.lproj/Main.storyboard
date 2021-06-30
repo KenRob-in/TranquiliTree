@@ -188,7 +188,7 @@
                                 <rect key="frame" x="85" y="407" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" red="0.6103174125130254" green="0.8355323084187356" blue="0.62331219596963205" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.66644086979681028" green="0.87484633232876585" blue="0.69983293104215327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Go Green" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -197,7 +197,7 @@
                                 <rect key="frame" x="85" y="325" width="244" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" red="0.65258300429685623" green="0.91196337871195499" blue="0.91784232850000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.73709875349999998" green="0.91784232850000003" blue="0.90196806190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Self Care" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
