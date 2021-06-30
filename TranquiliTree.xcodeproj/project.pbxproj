@@ -14,7 +14,6 @@
 		095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D1268BACCB0048D80C /* Assets.xcassets */; };
 		095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */; };
 		91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */ = {isa = PBXBuildFile; fileRef = 91EA8C74268BF7BA003A025F /* Nexa-Font */; };
-		91EA8C76268BFBAC003A025F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D6268BACCB0048D80C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,7 +131,6 @@
 				095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */,
 				91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */,
 				095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */,
-				91EA8C76268BFBAC003A025F /* Info.plist in Resources */,
 				095E43D0268BACC50048D80C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
