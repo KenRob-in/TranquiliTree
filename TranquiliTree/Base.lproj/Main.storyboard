@@ -271,7 +271,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VG5-3y-cEI">
                                 <rect key="frame" x="20" y="120" width="124" height="109.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                <state key="normal" backgroundImage="Image-1">
                                     <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -281,7 +281,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-Si-ZIc">
                                 <rect key="frame" x="20" y="312.5" width="124" height="109.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                <state key="normal" backgroundImage="Image-3">
                                     <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -291,7 +291,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3D-N7-Inq">
                                 <rect key="frame" x="20" y="683" width="124" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                <state key="normal" backgroundImage="Image-4">
                                     <color key="titleColor" red="0.97053176159999999" green="0.85958725209999998" blue="0.79997640849999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -301,7 +301,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-5t-eUz">
                                 <rect key="frame" x="20" y="509" width="124" height="109.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                <state key="normal" backgroundImage="Image-2">
                                     <color key="titleColor" red="0.98738247160000003" green="0.94561070199999997" blue="0.90586990119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -319,7 +319,7 @@
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-P5-mfV">
                                                 <rect key="frame" x="5" y="0.0" width="231" height="440"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">”Feeling Stressed?"
+                                                <string key="text">”Feeling Stressed?"
 Stress can stem from a variety of factors. Tackling stress may be harder for some but the first step is finding the cause.
 
 List out all potential stressors in your life. (I.e. school, clubs, relationships)
@@ -328,7 +328,7 @@ Prioritize your list by most important. What things have the shortest deadline?
 Put breaks into the list you created. 
 
 Completing your work won’t always eliminate your stress, sometimes you’ll have to input long term habits.
--Meditate -Yoga -Bullet -Journal -Talk to a professional</mutableString>
+-Meditate -Yoga -Bullet -Journal -Talk to a professional</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -349,7 +349,7 @@ Completing your work won’t always eliminate your stress, sometimes you’ll ha
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-Jk-D77">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="547"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">”Feeling Down?"
+                                                <string key="text">”Feeling Down?"
 A multitude of factors can cause you to be filled with sadness. Sometimes, there is no reason behind the feeling at all. Cause or not, tackling sadness involves a good amount of understanding your emotions and what causes you to lessen negative ones. 
 
 Narrow down and list any potential causes of this feeling. Are there recent events that could be upsetting you?
@@ -361,7 +361,7 @@ Sometimes, even your own hobbies can not do much to pull yourself out of a sad s
 -Rewatch your favorite shows -Visit parks, gardens, or cafes
 -Create upbeat or nostalgic playlists
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -386,7 +386,7 @@ Sometimes, even your own hobbies can not do much to pull yourself out of a sad s
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCX-KK-TyR">
                                                 <rect key="frame" x="8" y="0.0" width="232" height="489"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">”Feeling Happy? 
+                                                <string key="text">”Feeling Happy? 
 If you struggle with fluctuating mental health, it may come hard to find yourself feeling happy. That is why it is extremely important to cherish the feeling rather than focusing on it’s possible short timespan.  
                                   
 Focus on the high rather than the potential of an upcoming low. 
@@ -396,7 +396,7 @@ Take a moment to treat yourself to some luxuries.
 
 Using your ups to begin healthy habits or starting new hobbies can aid in future moments of feeling down, stressed, etc. 
 -Buy clothes -Visit friends -Create study playlists
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -421,7 +421,7 @@ Using your ups to begin healthy habits or starting new hobbies can aid in future
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-8b-WeY">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="477"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">"Feeling Tired? "
+                                                <string key="text">"Feeling Tired? "
 Sleep troubles can lead to a plethora of other physical and emotional issues. It is extremely important to create healthy sleeping habits and uphold them the best you can. Unfortunately, life does not always permit you to have the full recommended 10 hours of sleep. In these cases, finding alternatives to still allow you to feel energized are key.
 
 First utilize a To Do list in order to organize your work and prioritize things by deadline. From there you can rearrange your schedule and make more room for sleep.
@@ -435,7 +435,7 @@ Other options: There may be cases in which your sleep troubles are not ratified 
 -Write or read before bed
 
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.21549510960000001" green="0.2080950141" blue="0.1882297695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -478,8 +478,11 @@ Other options: There may be cases in which your sleep troubles are not ratified 
     </scenes>
     <resources>
         <image name="Image" width="1280" height="1280"/>
-        <image name="circle.fill" catalog="system" width="128" height="121"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
+        <image name="Image-1" width="1280" height="1280"/>
+        <image name="Image-2" width="1280" height="1280"/>
+        <image name="Image-3" width="1280" height="1280"/>
+        <image name="Image-4" width="1280" height="1280"/>
+        <image name="square.fill" catalog="system" width="32" height="32"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
