@@ -46,7 +46,7 @@ class ResourcesViewController: UIViewController {
     
     @IBAction func goGreen(_ sender: UIButton) {
         resourcesResponse.isHidden = false
-        resourcesResponse.text = "Studies have shown there is a correlation between one’s mental and their environment. Here are some things you can do to improve your area: \nBegin recycling-- plastic bottles, cardboard boxes, aluminum cans, non broken glass bottles, etc. \nStart a compost: Fruit scraps, vegetable scraps, coffee grounds, egg shells, and tea bags. \nPurchase greenery such as Pothos, Snake Plant, Aloe Vera."
+        resourcesResponse.text = "Studies have shown there is a correlation between one’s mental and their environment. Here are some things you can do to improve your area: \nBegin recycling plastic bottles, cardboard boxes, aluminum cans, non broken glass bottles, etc. \nStart a compost: Fruit scraps, vegetable scraps, coffee grounds, egg shells, and tea bags. \nPurchase greenery such as Pothos, Snake Plant, Aloe Vera.\nFor more information, please visit this link: https://youmatter.world/en/definition/definitions-sustainability-definition-examples-principles/"
     }
     
 }
