@@ -13,6 +13,8 @@
 		095E43D0268BACC50048D80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43CE268BACC50048D80C /* Main.storyboard */; };
 		095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D1268BACCB0048D80C /* Assets.xcassets */; };
 		095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */; };
+		91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */ = {isa = PBXBuildFile; fileRef = 91EA8C74268BF7BA003A025F /* Nexa-Font */; };
+		91EA8C76268BFBAC003A025F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D6268BACCB0048D80C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		095E43D1268BACCB0048D80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095E43D4268BACCB0048D80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095E43D6268BACCB0048D80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EA8C74268BF7BA003A025F /* Nexa-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Nexa-Font"; path = "../../../Downloads/Nexa-Font"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				095E43CA268BACC50048D80C /* SceneDelegate.swift */,
 				095E43CC268BACC50048D80C /* ViewController.swift */,
 				095E43CE268BACC50048D80C /* Main.storyboard */,
+				91EA8C74268BF7BA003A025F /* Nexa-Font */,
 				095E43D1268BACCB0048D80C /* Assets.xcassets */,
 				095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */,
 				095E43D6268BACCB0048D80C /* Info.plist */,
@@ -126,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */,
+				91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */,
 				095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */,
+				91EA8C76268BFBAC003A025F /* Info.plist in Resources */,
 				095E43D0268BACC50048D80C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
