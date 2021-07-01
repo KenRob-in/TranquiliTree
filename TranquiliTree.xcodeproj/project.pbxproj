@@ -14,6 +14,10 @@
 		095E43D2268BACCB0048D80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D1268BACCB0048D80C /* Assets.xcassets */; };
 		095E43D5268BACCB0048D80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E43D3268BACCB0048D80C /* LaunchScreen.storyboard */; };
 		09863A9B268C2EB900F99EA4 /* MoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */; };
+		0A9B4C8C268DE43B00ABE500 /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C8B268DE43B00ABE500 /* ToDoTableTableViewController.swift */; };
+		0A9B4C8E268DE4AB00ABE500 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C8D268DE4AB00ABE500 /* ToDo.swift */; };
+		0A9B4C94268DE80C00ABE500 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */; };
+		0A9B4C96268E0F5F00ABE500 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */; };
 		91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */ = {isa = PBXBuildFile; fileRef = 91EA8C74268BF7BA003A025F /* Nexa-Font */; };
 		A8ABED50268CEA440001536D /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ABED4F268CEA440001536D /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +32,10 @@
 		095E43D4268BACCB0048D80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095E43D6268BACCB0048D80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerViewController.swift; sourceTree = "<group>"; };
+		0A9B4C8B268DE43B00ABE500 /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableTableViewController.swift; sourceTree = "<group>"; };
+		0A9B4C8D268DE4AB00ABE500 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		91EA8C74268BF7BA003A025F /* Nexa-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Nexa-Font"; path = "../../../Downloads/Nexa-Font"; sourceTree = "<group>"; };
 		A8ABED4F268CEA440001536D /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +80,10 @@
 				095E43D6268BACCB0048D80C /* Info.plist */,
 				09863A9A268C2EB900F99EA4 /* MoodTrackerViewController.swift */,
 				A8ABED4F268CEA440001536D /* ResourcesViewController.swift */,
+				0A9B4C8B268DE43B00ABE500 /* ToDoTableTableViewController.swift */,
+				0A9B4C8D268DE4AB00ABE500 /* ToDo.swift */,
+				0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */,
+				0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */,
 			);
 			path = TranquiliTree;
 			sourceTree = "<group>";
@@ -149,9 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8ABED50268CEA440001536D /* ResourcesViewController.swift in Sources */,
+				0A9B4C8E268DE4AB00ABE500 /* ToDo.swift in Sources */,
 				09863A9B268C2EB900F99EA4 /* MoodTrackerViewController.swift in Sources */,
 				095E43CD268BACC50048D80C /* ViewController.swift in Sources */,
+				0A9B4C94268DE80C00ABE500 /* AddToDoViewController.swift in Sources */,
 				095E43C9268BACC50048D80C /* AppDelegate.swift in Sources */,
+				0A9B4C8C268DE43B00ABE500 /* ToDoTableTableViewController.swift in Sources */,
+				0A9B4C96268E0F5F00ABE500 /* CompleteToDoViewController.swift in Sources */,
 				095E43CB268BACC50048D80C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
