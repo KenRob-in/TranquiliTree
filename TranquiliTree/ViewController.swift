@@ -77,7 +77,7 @@ class ViewController: UIViewController {
                 quizResponse.text = "Stress can be extremely overwhelming, take some time to care for yourself as you work. You should never put your work over your own health. It’s okay to remove things from your schedule for the sake of your well being."
             } else if answer == "loneliness" || answer == "antisocial" || answer == "loneliness/antisocial" {
                 quizResponse.isHidden = false
-                quizResponse.text = "Sometimes we get caught in our own thoughts which just shows how intentful we are! However, it is important to not overthink. Remember that no one truly judges as much as yourself!"
+                quizResponse.text = "Sometimes we get caught in our own mind which just shows how thoughtful we are! However, it is important to not overthink. Remember that no one truly judges as much as yourself!"
             } else if answer == "unproductive" {
                 quizResponse.isHidden = false
                 quizResponse.text = "Focus is a difficult thing to control. Don’t let this lack of productivity define you. Take a break, reassess, and try again tomorrow."
