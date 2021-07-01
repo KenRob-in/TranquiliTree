@@ -19,6 +19,7 @@
 		0A9B4C94268DE80C00ABE500 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */; };
 		0A9B4C96268E0F5F00ABE500 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */; };
 		91EA8C75268BF7BA003A025F /* Nexa-Font in Resources */ = {isa = PBXBuildFile; fileRef = 91EA8C74268BF7BA003A025F /* Nexa-Font */; };
+		91F5390C268E43AE00A2A5A0 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91F5390A268E43AE00A2A5A0 /* DataModel.xcdatamodeld */; };
 		A8ABED50268CEA440001536D /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ABED4F268CEA440001536D /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		91EA8C74268BF7BA003A025F /* Nexa-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Nexa-Font"; path = "../../../Downloads/Nexa-Font"; sourceTree = "<group>"; };
+		91F5390B268E43AE00A2A5A0 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A8ABED4F268CEA440001536D /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				0A9B4C8D268DE4AB00ABE500 /* ToDo.swift */,
 				0A9B4C93268DE80C00ABE500 /* AddToDoViewController.swift */,
 				0A9B4C95268E0F5F00ABE500 /* CompleteToDoViewController.swift */,
+				91F5390A268E43AE00A2A5A0 /* DataModel.xcdatamodeld */,
 			);
 			path = TranquiliTree;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8ABED50268CEA440001536D /* ResourcesViewController.swift in Sources */,
+				91F5390C268E43AE00A2A5A0 /* DataModel.xcdatamodeld in Sources */,
 				0A9B4C8E268DE4AB00ABE500 /* ToDo.swift in Sources */,
 				09863A9B268C2EB900F99EA4 /* MoodTrackerViewController.swift in Sources */,
 				095E43CD268BACC50048D80C /* ViewController.swift in Sources */,
@@ -364,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91F5390A268E43AE00A2A5A0 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91F5390B268E43AE00A2A5A0 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 91F5390B268E43AE00A2A5A0 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 095E43BD268BACC50048D80C /* Project object */;
 }
