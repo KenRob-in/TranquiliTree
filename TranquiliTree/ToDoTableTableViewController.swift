@@ -19,21 +19,25 @@ class ToDoTableTableViewController: UITableViewController {
     }
     func createToDos() -> [ToDo] {
 
-      let swift = ToDo()
-      swift.name = "Learn Swift"
-      swift.important = true
+      let homework = ToDo()
+      homework.name = "Do homework"
+      homework.important = true
 
       let dog = ToDo()
       dog.name = "Walk the Dog"
       // important is set to false by default
 
-      return [swift, dog]
+      return [homework, dog]
     }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
+    }
+
+    func deleteItems(at offsets: Int){
+        toDos.remove(at: offsets)
     }
 
     
@@ -56,7 +60,10 @@ class ToDoTableTableViewController: UITableViewController {
         return cell
     }
     
-
+    
+    
+   
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
