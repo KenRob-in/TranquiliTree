@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 class AddToDoViewController: UIViewController {
 
-    var previousVC = ToDoTableTableViewController()
+    var previousVC = ToDoTableViewController()
     @IBOutlet weak var titleTextField: UITextField!
     
     @IBOutlet weak var importantSwitch: UISwitch!
@@ -22,17 +23,18 @@ class AddToDoViewController: UIViewController {
     }
     
     @IBAction func addTapped(_ sender: UIButton) {
-        let toDo = ToDo()
-
-          if let titleText = titleTextField.text {
-            toDo.name = titleText
-            toDo.important = importantSwitch.isOn
-          }
-        previousVC.toDos.append(toDo)
-          previousVC.tableView.reloadData()
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        let context = appDelegate.persistentContainer.viewContext
+        let toDo = ToDoCD(context: context)
+        
+        toDo.name = titleTextField.text
+        toDo.important = importantSwitch.isOn
+        appDelegate.saveContext()
         navigationController?.popViewController(animated: true)
     }
-    
+  
     /*
     // MARK: - Navigation
 
@@ -44,3 +46,4 @@ class AddToDoViewController: UIViewController {
     */
 
 }
+

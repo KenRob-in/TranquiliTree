@@ -5,26 +5,37 @@
 //  Created by Madison Nguyen on 7/1/21.
 //  Copyright © 2021 Kennedi Robison. All rights reserved.
 
+    import UIKit
 
-import UIKit
+    class CompleteToDoViewController: UIViewController {
 
-class CompleteToDoViewController: UIViewController {
+        var previousVC = ToDoTableViewController()
+        var selectedToDo : ToDoCD?
+        
+
+        @IBOutlet weak var titleLabel: UILabel!
+        
     
-    var previousVC = ToDoTableTableViewController()
-    var selectedToDo = ToDo()
-    @IBOutlet weak var titleLabel: UILabel!
-    override func viewDidLoad() {
+        override func viewDidLoad(){
         super.viewDidLoad()
+        titleLabel.text = selectedToDo?.name
+        }
+  
+    
 
-        // Do any additional setup after loading the view.
-        titleLabel.text = selectedToDo.name
-    }
-    
-    @IBAction func completeTapped(_ sender: Any) {
-    
-            
-    }
-    
+        @IBAction func completeTapped(_ sender: UIButton) {
+            guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+                                    return
+                                }
+                                let context = appDelegate.persistentContainer.viewContext
+                                
+                                if let theToDo = selectedToDo {
+                                    context.delete(theToDo)
+                                    navigationController?.popViewController(animated: true)
+                                }
+        }
+   
+        
     /*
     // MARK: - Navigation
 
